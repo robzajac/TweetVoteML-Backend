@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET'])
 def index():
-	users = iwh_collection.find()
+	users = maga_collection.find()
 	return render_template('index.html', users=users)
 
 if __name__ == "__main__":
