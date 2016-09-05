@@ -32,7 +32,7 @@ print "TRUMP: " + str(len(trump_set))
 print "HILL: " + str(len(hillary_set))
 
 # Write to Trump file
-f_trump = open('data/maga-data.txt','w')
+f_trump = open('data/maga-data.txt','a')
 
 for trump_user in trump_set:
 	f_trump.write(str(trump_user) + '\n')
@@ -40,7 +40,7 @@ for trump_user in trump_set:
 f_trump.close()
 
 # Write to Hillary file
-f_hill = open('data/iwh-data.txt', 'w')
+f_hill = open('data/iwh-data.txt', 'a')
 
 for hill_user in hillary_set:
 	f_hill.write(str(hill_user) + '\n')
