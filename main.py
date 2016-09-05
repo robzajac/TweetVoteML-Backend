@@ -8,13 +8,14 @@ client = MongoClient(MONGO_URL)
 
 # Initialize the database
 db = client.app56172051
-collection = db.users
+iwh_collection = db.iwh_users
+maga_collection = db.maga_users
 
 app = Flask(__name__)
 
 @app.route("/", methods=['GET'])
 def index():
-	users = collection.find()
+	users = iwh_collection.find()
 	return render_template('index.html', users=users)
 
 if __name__ == "__main__":

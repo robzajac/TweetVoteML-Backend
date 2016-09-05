@@ -1,5 +1,17 @@
 import twitter
+import os
+import pymongo
+
+from pymongo import MongoClient
 from keys import *
+
+MONGO_URL = os.environ.get('MONGOHQ_URL')
+client = MongoClient(MONGO_URL)
+
+# Initialize the database
+db = client.app56172051
+iwh_collection = db.iwh_users
+maga_collection = db.maga_users
 
 api = twitter.Api(consumer_key=CONSUMER_KEY,
 				  consumer_secret=CONSUMER_SECRET,
@@ -15,7 +27,8 @@ for i in range(1, 51):
 	trump_users = api.GetUsersSearch(term="#MakeAmericaGreatAgain", page=i)
 	trump_user_ids = []
 	for user in trump_users:
-		trump_user_ids.append(user.id)
+		# trump_user_ids.append(user.id)
+		maga_collection.insert(user)
 	temp_set = set(trump_user_ids)
 	trump_set |= temp_set
 
@@ -24,7 +37,8 @@ for i in range(1, 51):
 	hillary_users = api.GetUsersSearch(term="#ImWithHer", page=i)
 	hill_user_ids = []
 	for user in hillary_users:
-		hill_user_ids.append(user.id)
+		# hill_user_ids.append(user.id)
+		iwh_collection.insert(user)
 	temp_set = set(hill_user_ids)
 	hillary_set |= temp_set
 
