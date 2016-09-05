@@ -1,7 +1,10 @@
 import os
+import get_users
 from flask import Flask, render_template, request, redirect
 import pymongo
 from pymongo import MongoClient
+
+get_users.get_users()
 
 MONGO_URL = os.environ.get('MONGOHQ_URL')
 client = MongoClient(MONGO_URL)
