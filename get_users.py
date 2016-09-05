@@ -28,7 +28,9 @@ for i in range(1, 51):
 	trump_user_ids = []
 	for user in trump_users:
 		# trump_user_ids.append(user.id)
-		maga_collection.insert_one(user)
+		user_doc = {"name": user.name,
+				"id": user.id}
+		maga_collection.insert_one(user_doc)
 	temp_set = set(trump_user_ids)
 	trump_set |= temp_set
 
@@ -38,7 +40,9 @@ for i in range(1, 51):
 	hill_user_ids = []
 	for user in hillary_users:
 		# hill_user_ids.append(user.id)
-		iwh_collection.insert_one(user)
+		user_doc = {"name": user.name,
+				"id": user.id}
+		iwh_collection.insert_one(user_doc)
 	temp_set = set(hill_user_ids)
 	hillary_set |= temp_set
 
