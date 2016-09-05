@@ -1,7 +1,4 @@
 import twitter
-import sys
-sys.path.insert(0, '/path/to/keys.py/directory/')
-
 from keys import *
 
 api = twitter.Api(consumer_key=CONSUMER_KEY,
