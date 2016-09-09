@@ -1,13 +1,12 @@
 import twitter
-import os
 import keys
 
 from pymongo import MongoClient
 
 
 def get_users():
-    MONGO_URL = os.environ.get('MONGOHQ_URL')
-    client = MongoClient(MONGO_URL)
+    # MONGO_URL = os.environ.get('MONGOHQ_URL')
+    client = MongoClient(keys.MONGO_URL)
 
     # Initialize the database
     db = client.app56172051
@@ -27,7 +26,9 @@ def get_users():
             # TODO add a vector of their tweets
             user_doc = {"name": user.name,
                         "id": user.id}
-            maga_collection.insert_one(user_doc)
+            maga_collection.update_one(user_doc,
+                                       {"$set": user_doc},
+                                       upsert=True)
 
     # Hillary data
     for i in range(1, 51):
@@ -36,4 +37,8 @@ def get_users():
             # TODO add a vector of their tweets
             user_doc = {"name": user.name,
                         "id": user.id}
-            iwh_collection.insert_one(user_doc)
+            iwh_collection.update_one(user_doc,
+                                      {"$set": user_doc},
+                                      upsert=True)
+
+get_users()
