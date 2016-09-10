@@ -13,10 +13,10 @@ def get_users_tweets():
     iwh_users = db.iwh_users.find()
     maga_users = db.maga_users.find()
 
-    api = twitter.Api(consumer_key=keys.CONSUMER_KEY2,
-                      consumer_secret=keys.CONSUMER_SECRET2,
-                      access_token_key=keys.ACCESS_TOKEN2,
-                      access_token_secret=keys.ACCESS_SECRET2,
+    api = twitter.Api(consumer_key=keys.CONSUMER_KEY,
+                      consumer_secret=keys.CONSUMER_SECRET,
+                      access_token_key=keys.ACCESS_TOKEN,
+                      access_token_secret=keys.ACCESS_SECRET,
                       sleep_on_rate_limit=True)
 
     for maga_user in maga_users:
@@ -31,8 +31,8 @@ def get_users_tweets():
                 tweets_text.append(tweet.text)
 
             for tweet in tweets_text:
-                update_tweet = {"$addToSet": {maga_user.tweets: tweet}}
-                db.maga_users.update_one(maga_user,
+                update_tweet = {"$addToSet": {"tweets": tweet}}
+                db.maga_users.update_one({"id": maga_user['id']},
                                          update_tweet)
         except twitter.error.TwitterError:
             print "Hit an error"
@@ -49,8 +49,8 @@ def get_users_tweets():
                 tweets_text.append(tweet.text)
 
             for tweet in tweets_text:
-                update_tweet = {"$addToSet": {iwh_user.tweets: tweet}}
-                db.iwh_users.update_one(iwh_user,
+                update_tweet = {"$addToSet": {"tweets": tweet}}
+                db.iwh_users.update_one({"id": iwh_user['id']},
                                         update_tweet)
         except twitter.error.TwitterError:
             print "Hit an error"

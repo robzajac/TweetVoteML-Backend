@@ -26,9 +26,9 @@ def get_users():
             user_doc = {"name": user.name,
                         "id": user.id,
                         "tweets": []}
-            maga_collection.update_one(user_doc,
-                                       {"$set": user_doc},
-                                       upsert=True)
+            #maga_collection.update_one(user_doc,
+            #                           {"$set": user_doc},
+            #                           upsert=True)
 
     # Hillary data
     for i in range(1, 51):
@@ -37,7 +37,7 @@ def get_users():
             user_doc = {"name": user.name,
                         "id": user.id,
                         "tweets": []}
-            iwh_collection.update_one(user_doc,
-                                      {"$set": user_doc},
-                                      upsert=True)
+            #iwh_collection.update_one(user_doc,
+            #                          {"$set": user_doc},
+            #                          upsert=True)
 get_users()
