@@ -2,3 +2,6 @@ keys.py
 keys.pyc
 mongo_test.py
 venv/
+get_tweets2.py
+get_tweets3.py
+train_data2/

@@ -24,3 +24,13 @@ predicted = text_clf.predict(test_data.data)
 
 print(metrics.classification_report(test_data.target, predicted,
                                     target_names=test_data.target_names))
+
+predicted2 = text_clf.predict(["crooked hillary will ruin the country",
+                               "we need to build a wall and let them pay for it",
+                               "income inequaliy is a pressing issue in our country",
+                               "rip alton sterling #blacklivesmatter"])
+
+print predicted2
+
+print(metrics.classification_report([1, 1, 0, 0], predicted2,
+                                    target_names=test_data.target_names))
