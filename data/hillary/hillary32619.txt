@@ -1,0 +1,1 @@
+Thanks to @JiveDig for finding to grade A bugs in Caldera Forms today. Both fixed in version 1.4.2, which is coming quite soon.

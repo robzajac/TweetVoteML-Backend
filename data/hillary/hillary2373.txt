@@ -1,0 +1,1 @@
+I restore my iPhone from an iCloud backup the other day and 99% of apps logged me out. I understand it's because Keychain doesn't get backup

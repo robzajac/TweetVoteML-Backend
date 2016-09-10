@@ -1,0 +1,5 @@
+*writes a sentence*
+*checks phone* 
+*writes a sentence* 
+*checks phone* 
+Repeat

@@ -1,0 +1,3 @@
+“Alexa, add everything that Tim says to my shopping list.”
+
+#appleevent

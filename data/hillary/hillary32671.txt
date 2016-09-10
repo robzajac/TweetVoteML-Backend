@@ -1,0 +1,2 @@
+Everyone using WordPress for eCommerce should run the TLS check plugin by @jason_coleman 
+https://t.co/wKuak8CoWt right away.

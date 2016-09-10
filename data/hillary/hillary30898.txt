@@ -1,0 +1,1 @@
+When you're designing a system for scale, remember that people are part of the system.

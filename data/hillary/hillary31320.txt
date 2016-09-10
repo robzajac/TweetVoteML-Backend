@@ -1,0 +1,1 @@
+"courage" = "because we can" #AppleEvent

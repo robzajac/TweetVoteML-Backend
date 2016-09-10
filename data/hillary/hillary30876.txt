@@ -1,0 +1,1 @@
+Testability is the most important marker of code quality. It's a good early indicator of poor architecture, too. https://t.co/um1Ak8iaoN

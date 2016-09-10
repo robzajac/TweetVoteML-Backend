@@ -1,0 +1,1 @@
+With iOS 10 GM, @instagram hangs when I try to upload a photo from the library, but it lets me take a new photo. Previous beta was ok.

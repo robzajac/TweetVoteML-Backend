@@ -1,0 +1,1 @@
+So we know that Apple bluetooth is plain vanilla bluetooth, thanks to the Amazon leak. Pro: compatibility. Con: not reliable.

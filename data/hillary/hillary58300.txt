@@ -1,0 +1,1 @@
+This is huge news! A networked file system has long been the missing link for easy redundant web hosting on AWS: https://t.co/DSGv4WKcUG

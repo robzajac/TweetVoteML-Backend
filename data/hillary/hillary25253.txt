@@ -1,0 +1,1 @@
+With #Golang 1.7's httptrace package, Go continues to improve by going deeper, rather than wider, with the standard packages. h/t @ctava1

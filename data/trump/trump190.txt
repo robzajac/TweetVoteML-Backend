@@ -1,0 +1,1 @@
+Just found in #eecms if your developer log gets big, site will go to a crawl!!!

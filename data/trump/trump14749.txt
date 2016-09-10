@@ -1,0 +1,2 @@
+me: "I'll start working on my paper at 7." 
+also me: "well, it's almost 10:30, I should probably start this paper."
