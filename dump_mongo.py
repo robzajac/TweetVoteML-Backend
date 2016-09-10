@@ -25,7 +25,7 @@ def dump_mongo():
                 f.write('\n')
                 f.close()
             else:
-                os.remove(filename)
+                # os.remove(filename)
                 new_file = 'test_data/trump/trump' + str(trump_count) + '.txt'
                 f = codecs.open(new_file, 'w', 'utf-8')
                 f.write(tweet)
@@ -45,10 +45,12 @@ def dump_mongo():
                 f.close()
             else:
                 os.remove(filename)
-                new_file = 'test_data/hillary/hillary' + str(trump_count) + '.txt'
+                new_file = 'test_data/hillary/hillary' + str(hillary_count) + '.txt'
                 f = codecs.open(new_file, 'w', 'utf-8')
                 f.write(tweet)
                 f.write('\n')
                 f.close()
+
+            hillary_count += 1
 
 dump_mongo()
