@@ -31,7 +31,7 @@ def get_users_tweets():
                 tweets_text.append(tweet.text)
 
             for tweet in tweets_text:
-                update_tweet = {"$addToSet": {"tweets": tweet}}
+                update_tweet = {"$addToSet": {maga_user.tweets: tweet}}
                 db.maga_users.update_one(maga_user,
                                          update_tweet)
         except twitter.error.TwitterError:
@@ -49,7 +49,7 @@ def get_users_tweets():
                 tweets_text.append(tweet.text)
 
             for tweet in tweets_text:
-                update_tweet = {"$addToSet": {"tweets": tweet}}
+                update_tweet = {"$addToSet": {iwh_user.tweets: tweet}}
                 db.iwh_users.update_one(iwh_user,
                                         update_tweet)
         except twitter.error.TwitterError:
