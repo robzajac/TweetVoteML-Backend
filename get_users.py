@@ -23,22 +23,21 @@ def get_users():
     for i in range(1, 51):
         trump_users = api.GetUsersSearch(term="#MakeAmericaGreatAgain", page=i)
         for user in trump_users:
-            # TODO add a vector of their tweets
             user_doc = {"name": user.name,
-                        "id": user.id}
+                        "id": user.id,
+                        "tweets": []}
             maga_collection.update_one(user_doc,
-                                       {"$set": user_doc},
+                                       user_doc,
                                        upsert=True)
 
     # Hillary data
     for i in range(1, 51):
         hillary_users = api.GetUsersSearch(term="#ImWithHer", page=i)
         for user in hillary_users:
-            # TODO add a vector of their tweets
             user_doc = {"name": user.name,
-                        "id": user.id}
-            iwh_collection.update_one(user_doc,
-                                      {"$set": user_doc},
-                                      upsert=True)
-
+                        "id": user.id,
+                        "tweets": []}
+            maga_collection.update_one(user_doc,
+                                       user_doc,
+                                       upsert=True)
 get_users()
