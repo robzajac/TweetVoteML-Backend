@@ -1,3 +1,3 @@
 import process_username as pu
 
-pu.process_username("wbitsfine")
+print str(pu.process_username("realdonaldtrump"))

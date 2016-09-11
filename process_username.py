@@ -75,14 +75,6 @@ def process_username(username):
                     hill_tweets.append(texts[j])
                 j += 1
 
-        print "REPORT"
-        print "NAME: " + username
-        print "ORIENTATION: " + str(orientation)
-        print "RATIO: " + str(ratio)
-        print "TRUMP COUNT: " + str(trump_count)
-        print "HILLARY COUNT: " + str(hillary_count)
-        print "TRUMP TWEET SIZE: " + str(len(trump_tweets)) + " " + str(trump_tweets)
-        print "HILLARY TWEET SIZE: " + str(len(hill_tweets)) + " " + str(hill_tweets)
         user_dict = {'name': username,
                      'orientation': orientation,
                      'ratio': ratio,
@@ -92,5 +84,5 @@ def process_username(username):
         return user_dict
 
     except twitter.error.TwitterError:
-        error = "Sorry, this user is private."
+        error = "Sorry! Either this user is private or this user does not exist."
         return {'error': error}
