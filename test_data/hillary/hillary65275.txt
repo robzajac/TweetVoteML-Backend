@@ -1,1 +1,0 @@
-Here's how an edit function could work on Twitter: Auto-adds a link to the tweet's previous version(s) when it's edited.

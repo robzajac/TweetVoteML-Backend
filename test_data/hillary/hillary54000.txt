@@ -1,6 +1,0 @@
-*places Starbucks order*
-"Your name?"
-"Michael"
-"Great, Mike, we'll have that up shortly."
-"My name is Michael..."
-#MichaelnotMike

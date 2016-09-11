@@ -1,3 +1,0 @@
-Recording a liability decreases capital by the amount of the liability.
-
-CAPITAL = ASSETS - LIABILITIES. https://t.co/78NEeeMPMG

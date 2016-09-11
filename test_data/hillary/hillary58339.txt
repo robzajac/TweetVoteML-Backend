@@ -1,1 +1,0 @@
-Wanted: “git blame” for Wikipedia. I want to find who wrote a particular passage, without having to manually search the edit history.

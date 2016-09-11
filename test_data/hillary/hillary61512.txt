@@ -1,1 +1,0 @@
-No, because it acquires an asset in the transaction which offsets the loss in issuing the deposit. https://t.co/NeEWh6cUop
