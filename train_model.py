@@ -16,7 +16,7 @@ text_clf = Pipeline([('vect', CountVectorizer()),
 
 text_clf = text_clf.fit(train_data.data, train_data.target)
 
-test_data = sklearn.datasets.load_files(container_path='train_data2',
+test_data = sklearn.datasets.load_files(container_path='test_data',
                                         load_content=True,
                                         encoding='utf-8')
 
@@ -25,7 +25,7 @@ predicted = text_clf.predict(test_data.data)
 print(metrics.classification_report(test_data.target, predicted,
                                     target_names=test_data.target_names))
 
-print metrics.accuracy_score(test_data.target, predicted)
+print(metrics.accuracy_score(test_data.target, predicted))
 
 # Dumping the model
 filename = 'model/tweets_classifier.joblib.pk1'
