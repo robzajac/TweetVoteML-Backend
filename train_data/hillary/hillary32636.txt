@@ -1,2 +1,0 @@
-Improve WordPress page loads by eliminating render-blocking resources 
-https://t.co/2vjPlLmUcE via @kinsta https://t.co/eIu8jOke1A

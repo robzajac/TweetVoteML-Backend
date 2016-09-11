@@ -1,6 +1,0 @@
-Initial: Opened door w/ key. 
-Actual: Kicked door down. 
-Initial: Not sure who shot son. 
-Actual: Police shot 5yo son. 
-
-#KorrynGaines

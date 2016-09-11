@@ -1,2 +1,0 @@
-Things you should never ever ever ever do on the wiki:
-* Duplicate information that writes to our scoreboard database b/c 1 page is wrong

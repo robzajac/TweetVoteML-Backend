@@ -1,1 +1,0 @@
-modified @KaitlinDDurbin's car fob to take a battery with twice the capacity. only set the car alarm off twice. probably an evening project.

@@ -1,3 +1,0 @@
-Number of users in queue ahead of you: 10284 
-
-Your estimated wait time is: more than an hour

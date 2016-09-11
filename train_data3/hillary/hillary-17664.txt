@@ -1,1 +1,0 @@
-But once I automated the fix, it stopped breaking. So it's been running, checking to see if it was broken;for the last 10 months, nada [2/3]

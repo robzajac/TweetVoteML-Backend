@@ -1,1 +1,0 @@
-i hold a grudge against pypy and associated projects for infecting everything they touched with libffi. can be a headache. still great tech.

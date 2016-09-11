@@ -1,1 +1,0 @@
-Why type hinting is useful in PHP5, and super awesome in PHP7 https://t.co/fCfQgr7Zyz My latest for @TheTorqueMag https://t.co/u5nuarCi2K

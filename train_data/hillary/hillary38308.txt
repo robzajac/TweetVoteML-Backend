@@ -1,1 +1,0 @@
-A lot of our 3rd party vendors do not allow us to place our tracking ID/code on their applications/systems. 🙄 IMO, it's lame. #mStonerNow

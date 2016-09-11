@@ -1,1 +1,0 @@
-sometimes i realize its way more efficient to just define a variable 8 times than to do an if statement and tell it to add 1 in some cases

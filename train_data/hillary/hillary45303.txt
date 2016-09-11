@@ -1,2 +1,0 @@
-Neural networks at work to detect lung cancer. https://t.co/BjLHLhrgy2
-#healthdata #quanthealth

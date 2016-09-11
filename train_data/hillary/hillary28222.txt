@@ -1,1 +1,0 @@
-i'm like a devops skateboarder with sick tricks, but it's really just dope bash combos shoved into ansible playbooks. come at me.

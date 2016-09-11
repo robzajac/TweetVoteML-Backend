@@ -1,1 +1,0 @@
-I've been getting a lot of jitter and/ or quantization errors in my USB audio interface since reinstalling MacOS and therefore the drivers.

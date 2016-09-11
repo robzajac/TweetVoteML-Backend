@@ -1,1 +1,0 @@
-You're using a laptop connected to a 4k monitor. The laptop screen isn't 4k. Will the laptop output 4k video to said 4k monitor?

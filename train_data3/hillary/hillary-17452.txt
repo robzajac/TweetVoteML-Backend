@@ -1,2 +1,0 @@
-“Shall we deploy to production?”
-* several people are typing *

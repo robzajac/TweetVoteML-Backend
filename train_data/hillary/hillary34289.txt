@@ -1,1 +1,0 @@
-The worst part of post processing data is when the data fields are inconsistent. I can parse anything, but so frustrating when field changes

@@ -1,1 +1,0 @@
-On the mobile app, @twitter should replace the "message" page w/ a feed of Likes from users that you follow #twitter

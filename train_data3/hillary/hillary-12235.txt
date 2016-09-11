@@ -1,8 +1,0 @@
-Cashier
-Retail
-Canvasser
-Janitor/Sanitation
-Receptionist 
-Legislative Clerk
-Election Office Worker
-#first7jobs

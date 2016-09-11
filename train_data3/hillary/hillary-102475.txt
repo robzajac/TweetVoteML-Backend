@@ -1,1 +1,0 @@
-The key change in Perfect Illusion is no Greedy.

@@ -1,1 +1,0 @@
-At least once a day the @Twitter app gets wedged and won't send or receive. I have to force-stop it. Has anyone else been experiencing this?

@@ -1,1 +1,0 @@
-it's simple, our continuous delivery pipeline is built on a solid foundation of industry standard open source tools https://t.co/h8ViMkCl5i

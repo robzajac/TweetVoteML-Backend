@@ -1,5 +1,0 @@
-#MyToDoList
-
-1. Register to vote 
-2. Register others to vote 
-3. Vote for Hillary on November 8th

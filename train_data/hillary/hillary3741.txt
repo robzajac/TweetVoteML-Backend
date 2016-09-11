@@ -1,4 +1,0 @@
-* Broadcasts your contact to all friends w/ skype
-* Doesn't let you undo it
-* Makes u manually unclick 96 suggestions
-* Forces friend notifs

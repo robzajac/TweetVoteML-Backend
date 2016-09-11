@@ -1,1 +1,0 @@
-Canary Analyze All Things: How We Learned to Keep Calm and Release Often https://t.co/jvJYRTufLh #ContinuousDelivery #ContinuousDeployment

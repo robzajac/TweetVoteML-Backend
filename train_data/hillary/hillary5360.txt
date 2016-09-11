@@ -1,1 +1,0 @@
-Previously perfectly usable functions seem to require signing up for some outsourced app these days, making email tasks unnecessarily icky.

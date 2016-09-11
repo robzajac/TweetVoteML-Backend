@@ -1,4 +1,0 @@
-AngularJS + WordPress REST API
-@royboy789 + @josh412
-@loopconf 2016
-🐲🌮 https://t.co/TDhKJ4zsZ8

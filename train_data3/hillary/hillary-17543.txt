@@ -1,3 +1,0 @@
-Me: ugh, what’s the syntax for python datetime.strptime
-
-Docs: FIGHT ME https://t.co/wZxsWXxn95

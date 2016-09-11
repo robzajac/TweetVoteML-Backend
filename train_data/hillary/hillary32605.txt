@@ -1,1 +1,0 @@
-I'm currently developing a new @CalderaWP site. The heatmaps from @sumome are super useful in understanding how current site is used.

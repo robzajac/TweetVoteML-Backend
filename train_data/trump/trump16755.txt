@@ -1,2 +1,0 @@
-#BoycottCNN
-#corruptNewsNetwork https://t.co/dfyfENFaGw

@@ -1,1 +1,0 @@
-I've switched to GBoard, and disabled the main English keyboard and the emoji keyboard. Only drawback is load lag, but everything else is 💯

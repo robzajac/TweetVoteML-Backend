@@ -1,6 +1,0 @@
-US Customs: "Louder"
-Immigrant: "USA!"
-US Customs: "Louder"
-Immigrant: "U-S-A! U-S-A! U-S-A!"
-US Customs: "That's the stuff"
-#ExtremeVetting

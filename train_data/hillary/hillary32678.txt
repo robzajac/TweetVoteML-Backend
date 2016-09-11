@@ -1,2 +1,0 @@
-True or false var_dump( 500 == '500c' );
-If you answered true, you just made the same silly mistake I did.

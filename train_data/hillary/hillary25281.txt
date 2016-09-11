@@ -1,6 +1,0 @@
-Customs Officer: "Occupation?"
-Immigrant: "Astrophysicist"
-CO: "Name?"
-Immigrant: "Mohamm..."
-CO: "Alarm!"
-#ExtremeVetting

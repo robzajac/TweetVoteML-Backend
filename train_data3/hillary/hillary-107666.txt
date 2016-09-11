@@ -1,7 +1,0 @@
-Are you a terrorist? (Pick one)
-
-A. Yes
-B. No
-C. Maybe so
-
-#TrumpTerrorTest

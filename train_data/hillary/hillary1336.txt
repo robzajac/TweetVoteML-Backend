@@ -1,2 +1,0 @@
-Person: *kills me*
-Me: It's fine, I'm fine, no worries!

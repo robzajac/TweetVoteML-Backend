@@ -1,1 +1,0 @@
-Users of the Caldera Forms @stripe - check your inbox for an email about compatibility with changes to Stripe API.TL;DR - Update to 1.4.4.

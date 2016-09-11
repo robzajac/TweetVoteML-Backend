@@ -5,3 +5,5 @@ venv/
 get_tweets2.py
 get_tweets3.py
 train_data2/
+train_data/
+train_data3/

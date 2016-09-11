@@ -1,1 +1,0 @@
-Would love some date selectors in #GoogleAnalytics e.g. last week, last month, last quater, TTM, would be a nice usability improvement.
