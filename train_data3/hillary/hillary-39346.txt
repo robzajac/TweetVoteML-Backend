@@ -1,0 +1,1 @@
+RT @NateSilver538: ...they still provide useful data, though. We'll keep using them in our model, but with a lower weight than standard pol…

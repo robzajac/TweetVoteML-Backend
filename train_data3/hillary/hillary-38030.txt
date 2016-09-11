@@ -1,0 +1,1 @@
+@wchwd @ryanmerkley AFAIK, we don't have a set timeline for versioning CC0 yet. I do think it is on the horizon though (unlike the licenses)

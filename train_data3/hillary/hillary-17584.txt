@@ -1,0 +1,1 @@
+@icco pretty sure passing `rm` to xargs is the same thing tho

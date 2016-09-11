@@ -1,0 +1,1 @@
+I’d say that trailing slashes are the hardest problem in computer science, but they’re actually a special case of off-by-one errors.

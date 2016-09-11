@@ -12,6 +12,9 @@ api = twitter.Api(consumer_key=keys.CONSUMER_KEY2,
 
 
 def process_username(username):
+    if len(username) == 0:
+        username = "hgairga49wetyuiglhshskGJS"
+
     try:
         # Load model from hard drive
         text_clf = joblib.load('model/tweets_classifier.joblib.pk1')
@@ -22,6 +25,9 @@ def process_username(username):
         texts = []
         for tweet in tweets:
             texts.append(tweet.text)
+
+        if len(texts) == 0:
+            raise twitter.error.TwitterError()
 
         # 0 for Hillary, 1 for Trump
         predicted = text_clf.predict(texts)

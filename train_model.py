@@ -12,11 +12,12 @@ train_data = sklearn.datasets.load_files(container_path='train_data',
                                          encoding='utf-8')
 
 text_clf = Pipeline([('vect', CountVectorizer()),
+                     ('tfidf', TfidfTransformer()),
                      ('clf', MultinomialNB())])
 
 text_clf = text_clf.fit(train_data.data, train_data.target)
 
-test_data = sklearn.datasets.load_files(container_path='test_data',
+test_data = sklearn.datasets.load_files(container_path='train_data3',
                                         load_content=True,
                                         encoding='utf-8')
 

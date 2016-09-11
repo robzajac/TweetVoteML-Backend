@@ -1,0 +1,1 @@
+an app that screenshots tweets, lets you text to friend, and then deletes

@@ -1,0 +1,5 @@
+Things I will never spell correctly on a first try:
+
+1. plagirize 
+2. os.envrion in Python
+3. mispell

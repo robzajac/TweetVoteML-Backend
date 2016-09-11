@@ -1,0 +1,1 @@
+@derekwillis Even worse: Dating files as MM-DD-YY rather than the obviously superior YYYY-MM-DD. Don't they want to be able to sort easily??

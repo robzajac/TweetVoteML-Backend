@@ -1,0 +1,1 @@
+Always remember to check yourself before you SQL inject yourself.
