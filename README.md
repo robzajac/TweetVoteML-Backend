@@ -7,7 +7,9 @@ We used Twitter's API to find Twitter users who have tweeted #MakeAmericaGreatAg
 
 Our app vectorized each tweet to obtain a raw count of words that appeared in "Trump" tweets and "Hillary" tweets. It learned to recognize words that appear most often in tweets from either side using a logistic regression classifier in Scikit-Learn.
 
-On the frontend, we take in any public Twitter user and fetch their most recent 200 tweets. Our model classifies each tweet and we obtain a ratio of "Trump" tweets to "Hillary" tweets for the user. The ratio represents who we think the user will vote for and how likely we think our prediction is. 
+On the frontend, we take in any public Twitter user and fetch their most recent 200 tweets. Our model classifies each tweet and we obtain a ratio of "Trump" tweets to "Hillary" tweets for the user. The ratio represents who we think the user will vote for and how likely we think our prediction is.
+
+The app works best with users who are particularly vocal about their political orientation on Twitter. If not many of your tweets are polarized, the model will predict who you will vote for with about 50% accuracy.
 
 ## Repo Contents
 Scripts to pull tweets from users, dump our Mongo database to local text files, train our model, and process a username given to the app on the frontend.
